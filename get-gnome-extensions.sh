@@ -7,7 +7,7 @@ clear
 echo "================"
 echo "Currently Enabled Extensions"
 echo "================"
-gsettings get org.gnome.shell enabled-extensions | sed 's/ / --> /g' | sed 's/\[/ --> /' | sed 's/,/\n/g' | sed 's/\]/\n/' | tr -d "']"
+gsettings get org.gnome.shell enabled-extensions | sed 's/ / --> /g;s/\[/ --> /;s/,/\n/g;s/\]/\n/' | tr -d "']"
 echo "================"
 echo "User's Exclusive Extensions"
 echo "================"
