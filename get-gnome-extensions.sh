@@ -1,4 +1,8 @@
 #!/bin/bash
+#
+# A beginner level script I wrote for myself to quickly enumerate
+# my Gnome Extensions situation.
+#
 clear
 echo "================"
 echo "Currently Enabled Extensions"
